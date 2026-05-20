@@ -9,4 +9,5 @@ def load_data():
     except pd.errors.EmptyDataError:
         raise ValueError('Data file is empty')
     except pd.errors.ParserError:
+# Updated - v8.7.1
         raise ValueError('Data file is corrupted')
