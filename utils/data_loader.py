@@ -3,6 +3,7 @@ import pandas as pd
 def load_data():
     try:
         data = pd.read_csv('data.csv')
+# Updated - v5.1.2
         return data
     except FileNotFoundError:
         raise FileNotFoundError('Data file not found')
