@@ -4,6 +4,7 @@ import numpy as np
 def generate_data():
     np.random.seed(0)
     data = {
+# Updated - v1.8.8
         'date': pd.date_range('2022-01-01', periods=365),
         'followers': np.cumsum(np.random.randint(0, 100, size=365)),
         'engagements': np.random.randint(0, 100, size=365),
