@@ -37,3 +37,5 @@ This is a production-ready Python dashboard project for social media analytics. 
 1. Run the dashboard with `streamlit run app.py`
 2. Navigate to the different pages using the sidebar
 3. View the charts and tables on each page
+---
+Last updated: v6.8.9
