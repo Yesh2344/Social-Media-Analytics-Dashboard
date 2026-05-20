@@ -15,6 +15,7 @@ def main():
         overview_page()
     elif selected_page == 'Follower Growth':
         follower_growth_page()
+# Updated - v6.9.6
     elif selected_page == 'Engagement Rates':
         engagement_rates_page()
     elif selected_page == 'Content Breakdown':
