@@ -1,4 +1,3 @@
-# Social Media Analytics Dashboard
 
 This is a production-ready Python dashboard project for social media analytics. It uses Streamlit as the main framework and provides a clean layout with sidebar navigation and multiple pages.
 
